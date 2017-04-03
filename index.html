@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Places You've Been</title>
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+  <h1>All the Places You'll Go</h1>
+
+  <div class="row">
+
+    <div class="col-md-6">
+      <h2>Add a place:</h2>
+      <form id="new-place">
+        <div class="form-group">
+          <label for="name">Place Name</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+        <div class="form-group">
+          <label for="location">Location</label>
+          <input type="text" class="form-control" id="location">
+        </div>
+        <div class="form-group">
+          <label for="landmark">Landmark</label>
+          <input type="text" class="form-control" id="landmark">
+        </div>
+        <div class="form-group">
+          <label for="season">Season</label>
+          <input type="text" class="form-control" id="season">
+        </div>
+        <div class="form-group">
+          <label for="notes">Notes</label>
+          <input type="text" class="form-control" id="notes">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Add</button>
+      </form>
+
+      <h2>Places you've been:</h2>
+      <ul id="places">
+
+      </ul>
+    </div>
+
+    <div class="col-md-6">
+      <div id="show-place">
+        <h2></h2>
+        <p>place: <span class="placez"></span></p>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  </body>
+</html>
